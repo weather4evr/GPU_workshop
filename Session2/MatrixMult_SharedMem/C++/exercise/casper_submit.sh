@@ -1,7 +1,7 @@
 #!/bin/bash -l
 # Batch directives
 #PBS -N sm_matmul
-#PBS -A NTDD0002
+#PBS -A NMMM0021
 #PBS -q casper
 #PBS -l select=1:ncpus=1:mem=50GB:ngpus=1
 #PBS -l gpu_type=v100
